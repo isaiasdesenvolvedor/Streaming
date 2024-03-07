@@ -7,6 +7,7 @@
 }
 
 
+
 @import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
 
 .ojuju {
@@ -26,7 +27,7 @@ height: 30px;
     display: grid;
     justify-content: space-around;
     padding: 20px;
-    background-color: rgb(255, 221, 27);
+    background-color: rgb(0, 0, 119);
     inline-size: 100%;
 }
 
@@ -61,16 +62,17 @@ img {
     block-size: 380px;
 }
 #mova:hover{
-
 margin:-10px;
 transition: margin 0.3s;
 opacity: 0.7;
 }
 
 #title {
-    position: relative;
-    inset-block-end: 60px;
-    color: white;
+position: relative;
+inset-block-end: 70px;
+color: rgb(204, 168, 5);
+background-color:  rgb(0, 13, 126);
+
 }
 
 #movie-card {
@@ -81,6 +83,7 @@ opacity: 0.7;
     justify-content: space-between;
     block-size: 520px;
     border: 1px solid;
+    
 }
 
 #detalhes {
@@ -99,24 +102,30 @@ opacity: 0.7;
     inset-block-start: 100px;
     position: relative;
     margin: auto;
-    block-size: 600px;
-    inline-size: 1200px;
+    block-size: 497px;
+    inline-size: 1100px;
     background-color: rgb(0, 0, 0);
     display: grid;
     grid-template-columns: 50% 50%;
-    color: rgb(255, 255, 255);
+  
 
 }
 
 #poster {
-    inline-size: 600px;
-    block-size: 597px;
+    inline-size: 550px;
+    block-size: 497px;
+    background-color: bisque;
 }
 
 #posterRight {
+    display: flex;
+    flex-direction: column;
     position: relative;
-    inset-block-start: 60px;
     text-align: center;
+    block-size: 497px;
+    justify-content: center;
+   background-color: rgb(0, 13, 126);
+    color: rgb(243, 219, 3);
 }
 
 #voto {
@@ -132,9 +141,8 @@ opacity: 0.7;
     }
 
     #poster {
-
         inline-size: 400px;
-        block-size: 500px;
+        block-size: 497px;
     }
 }
 
@@ -143,18 +151,19 @@ opacity: 0.7;
         inset-block-start: 100px;
         position: relative;
         margin: auto;
-        block-size: 800px;
+        block-size: 700px;
         inline-size: 500px;
-        background-color: rgb(0, 0, 0);
         display: flex;
         flex-direction: column;
         color: rgb(255, 255, 255);
+        background-color:  rgb(0, 13, 126);
     }
+        
 
     #androidtittle {
         display: block;
         text-align: center;
-        padding-bottom: 30px;
+        color: rgb(243, 219, 3);
     }
 
     #pctitle {
@@ -163,13 +172,18 @@ opacity: 0.7;
 
     #poster {
         inline-size: 500px;
-        block-size: 500px;
+        block-size: 350px;
+        
+
     }
 
     #posterRight {
         position: relative;
-        inset-block-start: 10px;
-        text-align: center;
+        inset-block-start: 00px;
+         
+        background-color:  rgb(0, 13, 126);
+
+       
     }
 
 }
@@ -180,11 +194,24 @@ opacity: 0.7;
         inset-block-start: 20px;
         position: relative;
         margin: auto;
-        block-size: 750px;
+        block-size: 900px;
         inline-size: 280px;
         display: flex;
         flex-direction: column;
-        color: rgb(255, 255, 255);
+        background-color:  rgb(0, 13, 126);
+        color: rgb(243, 219, 3);
+    }
+
+    #poster {
+        inline-size: 280px;
+       height: auto;
+    }
+
+ #posterRight {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 
     }
 
@@ -192,31 +219,19 @@ opacity: 0.7;
         display: block;
         text-align: center;
         font-size: 20px;
-        padding-bottom: 30px;
+        padding-bottom: 0px;
     }
 
     #pctitle {
         display: none;
     }
 
-    #poster {
-        inline-size: 280px;
-        block-size: 390px;
-    }
-
     input {
         inline-size: 160px;
     }
 
-    #isaias {
-        display: none;
+    #blockdroid{
+    display: none;
     }
-
-    #posterRight {
-        position: relative;
-        inset-block-start: 0px;
-        text-align: center;
-    }
-
-
+  
 }

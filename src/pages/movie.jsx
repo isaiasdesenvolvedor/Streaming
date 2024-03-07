@@ -36,18 +36,17 @@ return (
 <Navbar/>
 
 <div id="movie">
-
 {movies && <>
-<h1 id="androidtittle">{movies.title}</h1>
+<h2 id="androidtittle">{movies.title}</h2>
 {<img id="poster" src={`${image}${movies.poster_path}`}></img>}
 {<div id="posterRight" >  
 <h1 id="pctitle">{movies.title}</h1>
-<br/> <br/>
+< br className="blockdroid"/> <br id="blockdroid"/>
 <p className="ojuju"> {movies.overview}</p>
 <br/><br/>
 <span className="ojuju">Tempo de duração: {movies.runtime} minutos</span>
 <br/> <br/>
-<span><Rate allowHalf disabled defaultValue={movies.vote_average/ 2} id="voto"/>Max: 5</span>
+<span><Rate allowHalf disabled defaultValue={movies.vote_average/ 2} id="voto"/></span>
 {console.log(movies.vote_average/ 2)}
 </div>}
 

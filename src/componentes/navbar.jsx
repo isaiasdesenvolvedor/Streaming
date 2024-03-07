@@ -14,7 +14,7 @@ navite(`/search?q=${search}`)
 
 return (
 <div id="navbar">
-<Link to ="/"><img id="icon" src="https://img.icons8.com/external-bearicons-flat-bearicons/64/external-Top-10-miscellany-texts-and-badges-bearicons-flat-bearicons.png" alt="external-Top-10-miscellany-texts-and-badges-bearicons-flat-bearicons"/></Link>
+<img width="30" id="icon" height="30" src="https://img.icons8.com/ios-glyphs/30/movie-projector.png" alt="movie-projector"/>
 <form onSubmit={handleSubmit}>
 <input value={search} onChange={(e)=> setsearch(e.target.value)} type="text" placeholder=" Digite..."></input>
 <button type="submit" >buscar</button>
